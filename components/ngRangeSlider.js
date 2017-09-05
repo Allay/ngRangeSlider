@@ -29,7 +29,7 @@
 
                     var iterator = [];
 
-                    for (var index = 0; index <= max; index+=_step) {
+                    for (var index = 0; index <= max; index+=$scope._step) {
                         iterator.push(index);
                     }
 
