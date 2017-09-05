@@ -29,7 +29,7 @@
 
                     var iterator = [];
 
-                    for (var index = 0; index <= max; index++) {
+                    for (var index = 0; index <= max; index+=_step) {
                         iterator.push(index);
                     }
 
